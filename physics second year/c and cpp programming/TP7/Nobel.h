@@ -1,6 +1,0 @@
-#ifndef NOBEL_H_INCLUDED
-#define NOBEL_H_INCLUDED
-
-
-
-#endif // NOBEL_H_INCLUDED

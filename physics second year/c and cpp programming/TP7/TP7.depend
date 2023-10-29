@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1637256873 source:u:\c++\tp7\main.cpp
-	<iostream>
-	<string>
-	<vector>
-	<fstream>
-

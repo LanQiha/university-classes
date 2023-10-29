@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1634836179 source:u:\c++\tp5d\main.cpp
-	<iostream>
-	<vector>
-	<ctime>
-	<cstdlib>
-

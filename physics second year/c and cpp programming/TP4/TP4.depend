@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1634226761 source:u:\c++\tp4\main.cpp
-	<iostream>
-	<cstdlib>
-	<ctime>
-
