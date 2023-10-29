@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<style type="text/css">
+		
+		.title
+		{ 
+			color : white;
+			font-size : 20pt; 
+			border-style : none; 
+			border-radius : 15pt 15pt 15pt 15pt;
+			background-color : #F7D358; 
+			margin : 0px 570px 0px 570px;
+			font-family: sans-serif;
+		}
+		
+		.rules
+		{
+			border-style : solid;
+			border-width : 0px 10px 0px 10px;
+			border-color : #A4A5A5;
+			padding : 5px;
+			border-radius : 10pt 10pt 10pt 10pt;
+			font-style : italic;
+			background-image: linear-gradient(to right, #E3A8F3, #E1F4A8);
+		}
+		
+	    .button
+		{
+			color : black;
+			border-style : solid;
+			background-color : #F7D358;
+			border-radius : 3pt 3pt 3pt 3pt;
+			font-family: cursive;
+		}
+		
+		.cell 
+		{
+			width:100px;
+		    height:100px;
+		    background-color : grey;
+		    text-align: center;
+		    border: 5px solid #1C1C1C;
+		    font-size : 20pt;
+		    font-family: cursive;
+		}
+		
+		.table 
+		{
+			border-collapse: collapse; 
+		}
+		
+		
+		.score 
+		{
+			border-style : outset;
+			margin : 0px 550px 0px 550px;
+			font-family: cursive;
+			animation-name : changeColor;
+			animation-duration : 10s;
+			animation-iteration-count: infinite;
+		}
+		
+		@keyframes changeColor 
+		{
+			25%  {background-color: #F68081;}
+			50%  {background-color: #F2F681;}
+			75%  {background-color: #81BEF7;}
+			100% {background-color: #80F780;}
+		}
+
+		.background 
+		{
+			background-image: url("https://cdn.pixabay.com/photo/2016/10/13/00/22/illustration-1736462_1280.png");
+		}
+		
+		</style>
+	</head>
+</html>

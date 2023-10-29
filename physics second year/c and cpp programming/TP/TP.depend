@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698162470 source:c:\users\chera\bureau\c++\elkarroumicherazade\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<fstream>
+

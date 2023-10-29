@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<html>
+	<head>
+		<style type="text/css">
+			
+		.menu
+		{
+			position: fixed;
+			float: left;
+			width: 180px;
+			padding: 10px;
+			text-align: left;
+			
+			height: 75%;
+			margin: 30px;
+			font-size: 11pt;
+			background-color: #f4511e;
+			
+			border-style : solid;
+			border-radius : 10pt 10pt 10pt 10pt;
+			border-width : 10px 0px 10px 0px;
+		}
+		
+		.message
+		{
+			border-bottom-style: solid;
+			font-style: italic;	 
+			font-family: cursive;
+			font-size: 12pt;
+		}
+		
+		.affichage
+		{
+			border-bottom-style: solid;
+			font-style: italic;	 
+			font-family: cursive;
+			text-align: center;
+			font-size: 12pt;
+		}
+		
+		.button3 
+		{
+			display: inline-block;
+            border-radius: 4px;
+            background-color: #FB8358;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px;
+            width: 100px;
+            margin: 5px;
+        }
+        
+        .contenu
+		{
+			float: right;
+		    height: 90%;
+		    padding: 10px;
+		    margin-left: 10px;
+		    margin-right: 10px;
+		
+		    width: 80%;
+		    font-family: cursive;
+		}
+		
+		.nouveau_post
+		{
+			height: auto;
+			width: auto;
+			padding: 10px;
+		    margin-bottom: 10px;
+		    text-align: center;
+		}
+		
+		.affiche_post
+		{
+			height: auto;
+			width: auto;
+			padding: 10px;
+		    margin-top: 10px;
+		    text-align: center;
+		    width: 70%;
+		    
+		    border-left-style: solid;
+		    border-left-width: 10px;
+		    border-color: #F7D259;
+		}
+		
+		.title
+		{
+			border-style : solid;
+			border-width : 0px 10px 0px 10px;
+			border-color : #A4A5A5;
+			border-radius : 10pt 10pt 10pt 10pt;
+			font-style : italic;
+			font-size: 16pt;
+			background-image: linear-gradient(to right,#FB8358, #F4FB59, #58ACFA, #AC58FA);
+		}
+		
+		.button 
+		{
+			display: inline-block;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 24px;
+            padding: 15px;
+            width: 200px;
+            margin: 5px;
+        }
+        
+        .background 
+		{
+			background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462434_1280.jpg");
+		}
+		
+		.button2 
+		{
+			display: inline-block;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 12px;
+            padding: 10px;
+            width: 100px;
+            margin: 5px;
+        }
+		
+		</style>
+	</head>
+</html>
