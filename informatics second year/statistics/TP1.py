@@ -114,3 +114,24 @@ print(C/A[1,])
 # MATPLOTLIB
 
 import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2*np.pi, 100)
+plt.plot(x, np.sin(x))
+# plt.show()
+
+plt.plot(x, np.cos(x))
+
+plt.plot([0, 1], [1, 0], "b",linewidth=2,linestyle='--',label='segment')
+plt.plot(0.6, 0.9, "r+",label='point')
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("joli graphe")
+plt.legend()
+
+fig,ax = plt.subplots(1,2)
+ax[0].plot(x, np.sin(x))
+ax[1].plot(y, y*np.sin(y))
+fig.suptitle("2 jolis graphes")
+ax[0].set_title("sinus")
+ax[1].set_xlabel("x")
+plt.show()
