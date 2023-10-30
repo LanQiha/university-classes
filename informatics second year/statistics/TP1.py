@@ -76,3 +76,30 @@ print(np.repeat(x,3,axis=1))
 print(np.repeat(x,3,axis=0))
 
 # Opérations sur les vecteurs
+A = np.array([1,2,3,6])
+B = np.array([0,-4,9,4])
+print(np.exp(A))
+print(A+B)
+print(A*B)
+print(B/A)
+print(2*A)
+print(A+1)
+
+for i in range(8):
+    print(i)
+
+a = 2
+if not a > 4:
+    print("a plus petit ou égal à 4")
+
+print(A+np.array([1,2,3,4]))
+
+print(A==2)
+print(A[A>2])
+
+u = np.arange(1,10,1)
+print(u)
+print(np.sum(u))
+print(np.cumsum(u))
+
+A.shape = (2,2); print(A)
