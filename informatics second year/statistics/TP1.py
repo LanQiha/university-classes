@@ -103,3 +103,14 @@ print(np.sum(u))
 print(np.cumsum(u))
 
 A.shape = (2,2); print(A)
+print(A.transpose())
+C = B.reshape(2,2).T
+print(C)
+print(A @ C)
+print(np.matmul(A,C))
+print(C[1,])
+print(C/A[1,])
+
+# MATPLOTLIB
+
+import matplotlib.pyplot as plt
