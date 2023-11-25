@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1700927990 source:c:\users\chera\bureau\tp2annale2021\elementtd.cpp
+	<iostream>
+	"ElementTD.h"
+
+1700927969 c:\users\chera\bureau\tp2annale2021\elementtd.h
+
+1700935486 source:c:\users\chera\bureau\tp2annale2021\tableaudynamique.cpp
+	"ElementTD.h"
+	"TableauDynamique.h"
+	<iostream>
+	<stdlib.h>
+	"math.h"
+
+1700934757 c:\users\chera\bureau\tp2annale2021\tableaudynamique.h
+	"ElementTD.h"
+
+1700935452 source:c:\users\chera\bureau\tp2annale2021\main.cpp
+	<iostream>
+	"TableauDynamique.h"
+
