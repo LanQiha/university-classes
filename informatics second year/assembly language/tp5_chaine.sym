@@ -1,0 +1,13 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	STACK             3042
+//	CH2               303A
+//	MSG2              301A
+//	CH1               3032
+//	MSG1              3002
+//	STACKEND          3062
+//	$               3000
+//	$               3001
+
